@@ -7,8 +7,9 @@ public class Poo01 {
 		AtributosClasses cliente01 = new AtributosClasses();
 	
 		System.out.println(cliente01.fNome);
-		System.out.println(cliente01.idade);
 		System.out.println(cliente01.lNome);
+
+		System.out.println(cliente01.idade);
 		
 		
 	}
