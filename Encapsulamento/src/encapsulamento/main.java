@@ -4,14 +4,12 @@ public class main {
 
 	public static void main(String[] args) {
 
-		AnimalDeEstimacao kleber = new AnimalDeEstimacao();
-		kleber.setNome("Kleber");
-		kleber.setIdade(21);
-		kleber.setRaca("Lulu da o Palmeiranas");
-		kleber.setTipo("Cachorro");
+		Retangulo retangulo1 = new Retangulo();
 		
-		System.out.printf(" Nome: %s \n Idade: %d \n Raça: %s \n Tipo: %s",kleber.getNome(),kleber.getIdade(),kleber.getRaca(),kleber.getTipo());
-		
+		retangulo1.setAltura(21);
+		retangulo1.setBase(5);
+
+		System.out.printf(" A área do retangulo é: %.2f\n O perimetro do retangulo é: %.2f",retangulo1.calculaArea(),retangulo1.calculaPerimetro());
 		
 	}
 
